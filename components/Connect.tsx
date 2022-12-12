@@ -12,7 +12,7 @@ type TExtensionState = {
     defaultAccount: InjectedAccountWithMeta,
   }
   loading: boolean
-  error: null | typeof Error
+  error: null | Error
 }
 
 const initialExtensionState: TExtensionState = {
@@ -57,9 +57,9 @@ export const Connect = () => {
 
   if (state.error) {
     return (
-      <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
-        Error with connect: {JSON.stringify(state.error)}
-      </h1>
+      <span className="text-red-500 font-bold tracking-tight">
+        Error with connect: {state.error.message}
+      </span>
     );
   }
 
