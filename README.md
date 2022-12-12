@@ -1,3 +1,12 @@
+# polkadot-extension-dapp-example
+This is a simple example of connecting the wallet to Polkadot with a `@polkadot/extension-dapp` library.
+
+The article **Connecting Polkadot to a Next.js website with @polkadot/extension-dapp"** can be found on my [blog](https://blog.andriishupta.dev).
+
+![connect](public/images/connect.png)
+
+# Next.js template
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
